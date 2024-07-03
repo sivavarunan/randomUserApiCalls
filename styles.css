@@ -41,6 +41,10 @@ body {
     width: 200px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all ease 0.3s;
+  }
+  .profile-card:hover{
+    transform: scale(1.1);
   }
   
   .profile-card img {
