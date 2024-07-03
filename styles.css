@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #212121;
+    background-color: #000000d0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,11 +18,13 @@ body {
     cursor: pointer;
     margin-bottom: 20px;
     border-radius: 10px;
+    transition: all ease 0.3s;
   }
   
   button:hover {
     background-color: #eeeeee;
-    color: aqua;
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
   }
   
   .profiles-container {
@@ -42,6 +44,7 @@ body {
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: all ease 0.3s;
+    color: #eeeeee;
   }
   .profile-card:hover{
     transform: scale(1.1);
@@ -57,10 +60,11 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+   
   }
   
   .profiles-table {
-    width: auto;
+    width: 100%;
     border-collapse: collapse;
   }
   
@@ -68,6 +72,7 @@ body {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
+    color: #eeeeee;
   }
   
   .profiles-table th {
